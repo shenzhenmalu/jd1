@@ -1,0 +1,42 @@
+/*css样式公共代码*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    -webkit-appearance:none ; /*按钮凹凸效果去除*/
+    outline:none;/*点击搜索框时,去轮廓线*/
+    box-sizing: border-box;/*???*/
+
+
+}
+a{
+    text-decoration: none;
+    /*display: block;*/
+}
+
+img{
+    display: block;
+}
+b,strong,i{
+    font-style:normal;
+    font-weight:normal;
+}
+.clear::after{
+    content:"";
+    display:block;
+    clear:both;
+    height: 0;
+    /*visibility: hidden;*/
+}
+
+
+.container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f0f0f0;
+}
+
+
+
